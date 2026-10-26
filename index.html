@@ -18,21 +18,41 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="ATIC: Advanced Technologies and Innovations Center.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="atic_web">
+  <meta name="apple-mobile-web-app-title" content="ATIC">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>atic_web</title>
+  <title>ATIC</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Splash shown while the Flutter engine downloads. It matches the app's
+       own loading screen (navy, white logo 72px tall, centered), and the app
+       paints over it once its first frame is ready. -->
+  <meta name="theme-color" content="#081C51">
+  <link rel="preload" href="splash-logo.png" as="image">
+  <style>
+    html, body { margin: 0; height: 100%; background: #081C51; }
+    #splash {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #splash img { height: 72px; animation: splash-pulse 1.6s ease-in-out infinite; }
+    @keyframes splash-pulse { 50% { opacity: 0.6; } }
+    @media (prefers-reduced-motion: reduce) { #splash img { animation: none; } }
+  </style>
 </head>
 <body>
+  <div id="splash" aria-hidden="true"><img src="splash-logo.png" alt=""></div>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
