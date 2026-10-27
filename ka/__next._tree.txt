@@ -1,0 +1,9 @@
+:HL["/atic_site/_next/static/chunks/1od79phm7kj6s.css","style"]
+:HL["/atic_site/_next/static/media/TBCContractica_Book-s.p.3wcvii67dhf4r.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/atic_site/_next/static/media/TBCContractica_Medium-s.p.2pn8n0eb_p9jl.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/atic_site/_next/static/media/TBCContractica_Regular-s.p.0ph04j-ml8ea4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/atic_site/_next/static/chunks/0652b9_bwoi01.css","style"]
+:HL["/atic_site/_next/static/chunks/0at8qnu3yus8x.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ka","s":[]},"h":65648,"c":"$Q2"}]]
+0:{"b":"4IS46pzk-OaqwqgnJKol9","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
